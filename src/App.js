@@ -1,6 +1,8 @@
+import Navigation from "./features/Navigation";
+
 function App() {
   return (
-    <div></div>
+    <Navigation />
   );
 }
 
