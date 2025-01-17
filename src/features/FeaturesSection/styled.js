@@ -6,7 +6,7 @@ export const StyledSection = styled.section`
 `;
 
 export const Content = styled.div`
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 `;
 
