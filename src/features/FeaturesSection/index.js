@@ -1,16 +1,9 @@
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { RiMegaphoneLine } from "react-icons/ri";
 import { FaPeopleGroup, FaWandMagicSparkles } from "react-icons/fa6";
-import {
-    StyledSection,
-    Content,
-    Title,
-    Wrapper,
-    Tile,
-    IconWrapper,
-    TileTitle,
-    TileText,
-} from "./styled";
+import { Content } from "../../common/Content/styled";
+import { Wrapper, Tile, IconWrapper, TileTitle, TileText } from "../StyledTile/styled";
+import { StyledSection, Title } from "./styled";
 
 const FeaturesSection = () => (
     <StyledSection id="features">
