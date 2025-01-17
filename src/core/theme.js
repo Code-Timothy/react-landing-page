@@ -8,5 +8,6 @@ export const theme = {
         cornflowerBlue: "#6372FF",
         boulder: "#777777",
         doveGray: "#666666",
+        translucentWhite: "#ffffffbf",
     },
 };
