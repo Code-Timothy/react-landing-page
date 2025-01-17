@@ -19,10 +19,11 @@ const LandingHeader = () => {
                 <source src={landingHeaderVideo} type="video/mp4" />
             </VideoBackground>
             <Wrapper isVisible={showContent}>
-                <Title>We are a<br />landing page</Title>
+                <Title>Empower your <br />brand online</Title>
                 <Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.
+                    Create a powerful online presence with tools designed
+                    to boost your brand visibility and engagement.
+                    Connect with your audience like never before.
                 </Text>
             </Wrapper>
             <Button isVisible={showContent}>Learn more</Button>
