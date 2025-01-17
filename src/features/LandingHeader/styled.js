@@ -34,16 +34,16 @@ const fallDown = keyframes`
 export const Wrapper = styled.div`
     max-width: 800px;
     color: white;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    border-radius: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
 
     opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
     animation: ${({ isVisible }) => isVisible ? css`${fallDown} 2s forwards` : "none"};
 `;
 
 export const Title = styled.h1`
-    font-size: 82px;
+    font-size: 62px;
     text-align: center;
     text-transform: uppercase;
     margin: 10px 0;
@@ -52,7 +52,7 @@ export const Title = styled.h1`
 export const Text = styled.p`
     text-align: center;
     margin: 0;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 30px;
 `;
