@@ -11,5 +11,6 @@ export const GlobalStyles = createGlobalStyle`
 
     body{
         font-family: "Raleway", sans-serif;
+        color: ${({ theme }) => theme.colors.boulder};
     };
 `;
