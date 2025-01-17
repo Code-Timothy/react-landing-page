@@ -28,8 +28,25 @@ export const LinksList = styled.ul`
 `;
 
 export const Link = styled.a`
+    position: relative;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
     color: ${({ theme }) => theme.colors.emperor};
     padding: 8px 2px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+        transition: width 0.3s ease;
+    };
+
+    &:hover::after {
+        width: 100%;
+    };
 `;
