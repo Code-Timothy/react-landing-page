@@ -36,7 +36,7 @@ export const Wrapper = styled.div`
     color: white;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 
     opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
     animation: ${({ isVisible }) => isVisible ? css`${fallDown} 2s forwards` : "none"};
