@@ -2,7 +2,7 @@ import { StyledNavigation, HomeLink, LinksList, Link } from "./styled";
 
 const Navigation = () => (
     <StyledNavigation>
-        <HomeLink href="/">REACT LANDING PAGE</HomeLink>
+        <HomeLink href="/">SMART BUSINESS TEAM</HomeLink>
         <LinksList>
             <li><Link href="#features">Features</Link></li>
             <li><Link href="#about">About</Link></li>
