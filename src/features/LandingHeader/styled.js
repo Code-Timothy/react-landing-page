@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 
 export const Container = styled.header`
     position: relative;
@@ -20,12 +20,26 @@ export const VideoBackground = styled.video`
     z-index: -1;
 `;
 
+const fallDown = keyframes`
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
 export const Wrapper = styled.div`
     max-width: 800px;
     color: white;
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
+
+    opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
+    animation: ${({ isVisible }) => isVisible ? css`${fallDown} 2s forwards` : "none"};
 `;
 
 export const Title = styled.h1`
@@ -56,6 +70,9 @@ export const Button = styled.button`
     font-weight: 500;
     border-radius: 25px;
     transition: all 0.5s linear;
+
+    opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
+    animation: ${({ isVisible }) => isVisible ? css`${fallDown} 2s forwards` : "none"};
 
     &:hover{
         cursor: pointer;
