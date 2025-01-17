@@ -12,9 +12,11 @@ export const StyledNavigation = styled.nav`
     z-index: 1;
 `;
 
-export const Header = styled.h1`
+export const HomeLink = styled.a`
     color: ${({ theme }) => theme.colors.mineShaft};
+    text-decoration: none;
     font-size: 24px;
+    font-weight: 700;
     padding: 15px;
     margin: 0;
 `;
