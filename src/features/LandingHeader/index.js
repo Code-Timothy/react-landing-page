@@ -11,7 +11,7 @@ const LandingHeader = () => {
         }, 3000);
 
         return () => clearTimeout(timer);
-    }, [])
+    }, []);
 
     return (
         <Container>
