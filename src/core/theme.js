@@ -6,5 +6,6 @@ export const theme = {
         white: "#FFFFFF",
         malibu: "#5CA9FB",
         cornflowerBlue: "#6372FF",
+        boulder: "#777777",
     },
 };
