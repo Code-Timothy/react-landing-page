@@ -19,23 +19,23 @@ const FeaturesSection = () => (
             <Wrapper>
                 <Tile>
                     <IconWrapper><IoChatbubbleEllipsesOutline /></IconWrapper>
-                    <TileTitle>Lorem Ipsum</TileTitle>
-                    <TileText>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesqu natoque etiam.</TileText>
+                    <TileTitle>Seamless Communication</TileTitle>
+                    <TileText>Connect easily with tools for clear and effective messaging anytime, anywhere.</TileText>
                 </Tile>
                 <Tile>
                     <IconWrapper><RiMegaphoneLine /></IconWrapper>
-                    <TileTitle>Lorem Ipsum</TileTitle>
-                    <TileText>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesqu natoque etiam.</TileText>
+                    <TileTitle>Powerful Marketing</TileTitle>
+                    <TileText>Reach your audience with targeted campaigns that drive engagement and growth.</TileText>
                 </Tile>
                 <Tile>
                     <IconWrapper><FaPeopleGroup /></IconWrapper>
-                    <TileTitle>Lorem Ipsum</TileTitle>
-                    <TileText>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesqu natoque etiam.</TileText>
+                    <TileTitle>Team Collaboration</TileTitle>
+                    <TileText>Foster productivity with shared workspaces, real-time updates, and smooth teamwork.</TileText>
                 </Tile>
                 <Tile>
                     <IconWrapper><FaWandMagicSparkles /></IconWrapper>
-                    <TileTitle>Lorem Ipsum</TileTitle>
-                    <TileText>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesqu natoque etiam.</TileText>
+                    <TileTitle>Innovative Solutions</TileTitle>
+                    <TileText>Discover cutting-edge technologies tailored to solve complex business challenges.</TileText>
                 </Tile>
             </Wrapper>
         </Content>
