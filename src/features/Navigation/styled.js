@@ -7,6 +7,9 @@ export const StyledNavigation = styled.nav`
     gap: 80px;
     background: ${({ theme }) => theme.colors.alabaster};
     padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 `;
 
 export const Header = styled.h1`
@@ -18,6 +21,7 @@ export const Header = styled.h1`
 
 export const LinksList = styled.ul`
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     list-style: none;
     padding: 0;
