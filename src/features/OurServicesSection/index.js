@@ -15,33 +15,33 @@ const OurServicesSection = () => (
             <Wrapper>
                 <Tile $white>
                     <IconWrapper><FaCode /></IconWrapper>
-                    <TileTitle>Seamless Communication</TileTitle>
-                    <TileText $white>Connect easily with tools for clear and effective messaging anytime, anywhere.</TileText>
+                    <TileTitle>Custom Development</TileTitle>
+                    <TileText $white>We create tailored software solutions that perfectly meet your unique requirements.</TileText>
                 </Tile>
                 <Tile $white>
                     <IconWrapper><FaShoppingCart /></IconWrapper>
-                    <TileTitle>Powerful Marketing</TileTitle>
-                    <TileText $white>Reach your audience with targeted campaigns that drive engagement and growth.</TileText>
+                    <TileTitle>E-Commerce</TileTitle>
+                    <TileText $white>Scale your online business with our dynamic and user-friendly e-commerce platforms.</TileText>
                 </Tile>
                 <Tile $white>
                     <IconWrapper><FaCloudArrowDown /></IconWrapper>
-                    <TileTitle>Team Collaboration</TileTitle>
+                    <TileTitle>Cloud Backup</TileTitle>
                     <TileText $white>Foster productivity with shared workspaces, real-time updates, and smooth teamwork.</TileText>
                 </Tile>
                 <Tile $white>
                     <IconWrapper><IoLogoBuffer /></IconWrapper>
-                    <TileTitle>Innovative Solutions</TileTitle>
-                    <TileText $white>Discover cutting-edge technologies tailored to solve complex business challenges.</TileText>
+                    <TileTitle>Creative Design</TileTitle>
+                    <TileText $white>Our innovative visual designs will make your brand stand out from the competition.</TileText>
                 </Tile>
                 <Tile $white>
                     <IconWrapper><BiSolidPlaneAlt /></IconWrapper>
-                    <TileTitle>Innovative Solutions</TileTitle>
-                    <TileText $white>Discover cutting-edge technologies tailored to solve complex business challenges.</TileText>
+                    <TileTitle>Fast Delivery</TileTitle>
+                    <TileText $white>We deliver swiftly and efficiently to meet the expectations of your clients and partners.</TileText>
                 </Tile>
                 <Tile $white>
                     <IconWrapper><ImStatsDots /></IconWrapper>
-                    <TileTitle>Innovative Solutions</TileTitle>
-                    <TileText $white>Discover cutting-edge technologies tailored to solve complex business challenges.</TileText>
+                    <TileTitle>Advanced Analytics</TileTitle>
+                    <TileText $white>Gain deep insights and analyze key metrics to support your company’s growth.</TileText>
                 </Tile>
             </Wrapper>
         </Content>
