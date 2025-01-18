@@ -45,6 +45,12 @@ export const ImagesContainer = styled.div`
 export const Image = styled.img`
     width: 400px;
     height: 260px;
+    transition: transform 0.5s;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.02);
+    };
 `;
 
 export const ModalOverlay = styled.div`
