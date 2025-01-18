@@ -49,7 +49,7 @@ export const Image = styled.img`
 
     &:hover{
         cursor: pointer;
-        transform: scale(1.02);
+        transform: scale(0.90);
     };
 `;
 
