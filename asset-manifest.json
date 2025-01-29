@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/react-landing-page/static/js/main.fcfcab2e.js",
+    "main.js": "/react-landing-page/static/js/main.fa79755d.js",
     "static/js/488.dcab4abe.chunk.js": "/react-landing-page/static/js/488.dcab4abe.chunk.js",
     "static/media/landingHeaderVideo.mp4": "/react-landing-page/static/media/landingHeaderVideo.e6be014f228199f7b1ff.mp4",
     "static/media/gallery2.jpg": "/react-landing-page/static/media/gallery2.88736aa6c4359b6bb8b7.jpg",
@@ -18,10 +18,10 @@
     "static/media/teammate3.jpg": "/react-landing-page/static/media/teammate3.8e12b475500dbede13f2.jpg",
     "static/media/teammate4.jpg": "/react-landing-page/static/media/teammate4.66e6548fdc1a241018f7.jpg",
     "index.html": "/react-landing-page/index.html",
-    "main.fcfcab2e.js.map": "/react-landing-page/static/js/main.fcfcab2e.js.map",
+    "main.fa79755d.js.map": "/react-landing-page/static/js/main.fa79755d.js.map",
     "488.dcab4abe.chunk.js.map": "/react-landing-page/static/js/488.dcab4abe.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fcfcab2e.js"
+    "static/js/main.fa79755d.js"
   ]
 }
