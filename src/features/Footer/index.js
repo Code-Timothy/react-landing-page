@@ -1,6 +1,5 @@
 const Footer = () => (
     <footer>
-        <p>Author: Tymoteusz Wójcik</p>
-        <p>All rights reserved 2025 ©</p>
+        <p>© 2025 All rights reserved. Design by Code-Timothy</p>
     </footer>
 );
