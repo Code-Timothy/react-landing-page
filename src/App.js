@@ -6,6 +6,7 @@ import OurServicesSection from "./features/OurServicesSection";
 import GallerySection from "./features/GallerySection";
 import TestimonialsSection from "./features/TestimonialsSection";
 import TeamSection from "./features/TeamSection";
+import Footer from "./features/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <GallerySection />
       <TestimonialsSection />
       <TeamSection />
+      <Footer />
     </>
   );
 }
